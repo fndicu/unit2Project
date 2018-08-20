@@ -33,10 +33,11 @@ h1 {
     font-weight: 300;
 }
 button{
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 5px 10px;
+    margin: 1em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -97,7 +98,7 @@ button{
 
 .score-panel {
     text-align: left;
-    width: 575px;
+    width: 80%;
     margin-bottom: 10px;
 }
 
@@ -166,7 +167,33 @@ button{
     width: 60px;
     height: 30px;
 }
+.modal-cancel{
+    background: red !important;
+}
 
 .hide{
     display: none;
+}
+
+@media (max-width: 700){
+    .deck{
+         padding: 10px;
+        width: 500px;
+    }
+    .deck .card{
+        height: 92px;
+        width: 73px;    
+    }
+}
+
+@media (max-width: 680px) {
+    .deck{
+         padding: 25px 15px;
+        width: 370px;
+    }
+    .deck .card{
+        height: 92px;
+        width: 73px;    
+    }
+
 }
