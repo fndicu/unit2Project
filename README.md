@@ -2,19 +2,20 @@
 
 ## Table of Contents
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+* [Initial Set-up](#Initial-Setup)
+* [Game-Play](#Game-Play)
 
-## Instructions
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+## Initial-Setup 
+* Start by downloading all files in the repo 
+* Navigate to the index.html file and open it on your favorite browser
 
-To get started, open `js/app.js` and start building out the app's functionality
+## Game-Play
+* This is a classic memory game. Clicking/tapping a tile will reveal what symbol is on the other side.
+* The goal is select 2 tiles at a time that have matching symbols
+* If the symbols match, the tiles will remain face-up, if they are not a match, they will revert to their original position.
+* Once all 16 tiles are matched, you have won the game and will be presented with the opportunity to play again or cancel.
+* If you select the "Replay" option, the tiles will shuffle and your score will reset. 
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+**Try and beat the game with the fewest number of moves possible for a higher score**
 
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
-
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).

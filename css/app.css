@@ -132,12 +132,15 @@ button{
     width: 400px;
     top: 50%;
     left: 50%;
+    align-items: center;
     background: #fff;
     transform: translate(-50%, -70%);
 }
-
+.modal-title{
+    text-align: center;
+    padding-top: .5em;
+}
 .modal-heading{
-    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 1.5rem;
@@ -175,25 +178,34 @@ button{
     display: none;
 }
 
-@media (max-width: 700){
-    .deck{
-         padding: 10px;
-        width: 500px;
-    }
-    .deck .card{
-        height: 92px;
-        width: 73px;    
-    }
-}
 
 @media (max-width: 680px) {
     .deck{
-         padding: 25px 15px;
-        width: 370px;
+        padding: 25px 15px;
+        width: 350px;
     }
     .deck .card{
-        height: 92px;
-        width: 73px;    
+        height: 85px;
+        width: 65px;    
+    }
+    .modal-content{
+        width: 350px;
+    }
+
+}
+
+
+@media (max-width: 330px) {
+    .deck{
+        padding: 25px 15px;
+        width: 315px;
+    }
+    .deck .card{
+        height: 85px;
+        width: 65px;    
+    }
+    .modal-content{
+        width: 310px;
     }
 
 }
